@@ -67,6 +67,9 @@ span {
 
 }
 
+a {
+    text-decoration: none;
+}
 
 /* CABEÇALHO */
 
@@ -92,8 +95,21 @@ header a {
 
 header nav.menu-desktop a:hover {
     color: var(--color-white);
-    transform: scale(1.03);
+
 }
+
+.posicao {
+    padding-top: 25px;
+}
+
+.posicao-buttom {
+    padding-top: 20px;
+}
+
+.iconNone {
+    display: none;
+}
+
 
 header nav ul {
     list-style-type: none;
@@ -148,8 +164,6 @@ section.topo-do-site .flex {
 .topo-do-site .img-topo-site img {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
-
-
 
     display: flex;
     justify-content: center;
@@ -326,7 +340,6 @@ section.sobre {
     padding-left: 25vw;
 }
 
-
 .img-sobre img {
     height: 30vw;
     width: 30vw;
@@ -369,7 +382,6 @@ section.sobre {
     padding-left: 30px;
 }
 
-
 .txt-sobre h3 {
     margin: 1rem;
     font-size: 20px;
@@ -386,8 +398,10 @@ section.sobre {
 }
 
 .txt-sobre h4 {
-    margin: 0rem 6rem;
-    font-size: 17px;
+    font-size: 15px;
+
+    text-align: justify;
+    margin: 0rem 1rem;
     font-weight: 600;
 }
 
@@ -403,7 +417,6 @@ section.sobre {
 
 section.projetos {
     padding: 80px 4%;
-    box-shadow: 0 0 40px 10px var(--color-cinza);
 }
 
 section.projetos .flex {
@@ -475,10 +488,66 @@ section.projetos .flex {
 }
 
 
+a.btn-viws {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: .4s;
+    text-transform: none;
+    list-style: none;
+}
+
+.btn-viws {
+    padding: 22px;
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+.btn-viws:hover {
+    box-shadow: 0px 0px 7px var(--color-blue);
+    transform: scale(1.03);
+}
+
+
+
 /* ESTILO FORMULARIO */
 
-
 /* 
+a.formu {
+    font-weight: 600;
+    padding: 20px;
+}
+
+.formu {
+    padding: 0px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+a.formu:hover {
+    box-shadow: 0px 0px 7px var(--color-blue);
+    background-color: var(--color-purple);
+    transform: scale(1.03);
+}
+
 section.formulario {
     padding: 80px 4%;
 }
@@ -523,8 +592,11 @@ form .btn-enviar input {
     font-weight: 700;
     cursor: pointer;
     transition: .4s;
-} */
+}
 
+.furmuNone {
+    display: none;
+} */
 
 
 /* ESTILO FOOTER */
@@ -608,6 +680,10 @@ footer .logo-footer a {
         font-size: 40px;
     }
 
+    .iconNone {
+        display: flex;
+    }
+
     .menu-mobile {
         display: block;
     }
@@ -673,6 +749,11 @@ footer .logo-footer a {
         z-index: 88888;
         display: none;
     }
+
+    .formu {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
 }
 
 
@@ -697,6 +778,10 @@ footer .logo-footer a {
     .menu-desktop,
     .btn-contato {
         display: none;
+    }
+
+    .iconNone {
+        display: flex;
     }
 
     /* Topo site */
