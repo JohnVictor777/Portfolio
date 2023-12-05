@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
 
+    <!-- LINK CSS -->
+
     <link rel="shortcut icon" href="assets/logo/favicon.png" type="image/x-icon">
 
     <title>Portfólio - John</title>
+
 </head>
 
 <body>
@@ -27,15 +30,15 @@
             <nav class="menu-desktop">
                 <ul>
                     <li><a href="#inicio">Início</a></li>
-                    <li><a href="#especialidades">Especialidade</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
                     <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#Projetos">Projetos</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
                 </ul>
             </nav>
             <div class="btn-contato">
-                <a href="#contato">
+                <a href="#contatos">
                     <button>
-                        Contato
+                        Contatos
                     </button>
                 </a>
             </div><!-- btn-contato -->
@@ -51,10 +54,10 @@
                 <nav>
                     <ul>
                         <li><a href="#inicio">Início</a></li>
-                        <li><a href="#especialidades">Especialidade</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
                         <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#Projetos">Projetos</a></li>
-                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contatos">Contatos</a></li>
                     </ul>
                 </nav>
 
@@ -68,6 +71,21 @@
     </header>
 
 
+    <!-- MODO DARK/LIGHT -->
+
+    <div>
+        <input type="checkbox" class="checkbox" id="chk" />
+
+        <label class="label" for="chk">
+            <i class="bi bi-moon-fill"></i>
+            <i class="bi bi-sun-fill"></i>
+
+            <div class="ball"></div>
+        </label>
+    </div>
+
+
+
     <!-- PROJETOS E ETC -->
 
     <main>
@@ -79,34 +97,31 @@
                             Olá, <br>meu nome é <br> <span>John Victor</span>
                         </h1>
 
-
                         <div class="stacks-content">
-                            <h3>Techs :</h3>
-                            <ul class="stacks">
-                                <li>
-                                    <div data-="HTML"><img src="assets/icones/html.svg" alt="html-icon"></div>
-                                </li>
+                            <h3>Sociais :</h3>
 
-                                <li>
-                                    <div data-="CSS"><img src="assets/icones/css.svg" alt="css-icon"></div>
-                                </li>
+                            <div class="btn-social">
+                                <a href="https://github.com/JohnVictor777" target="_blank"><button><i
+                                            class="bi bi-github"></i></button></a>
+                                <a href="https://instagram.com/johnv.dev?igshid=YTQwZjQ0NmI0OA=="
+                                    target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                                <a href="https://www.linkedin.com/in/john-victor-do-espirito-santo-61ba42267/"
+                                    target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                                <a href="https://wa.me/5575987112153/" target="_blank"><button><i
+                                            class="bi bi-whatsapp"></i></button></a>
+                            </div><!-- btn-social -->
 
-                                <li>
-                                    <div data-="JS"><img src="assets/icones/js.svg" alt="js-icon"></div>
-                                </li>
-                                <li>
-                                    <div data-="REACT"><img src="assets/icones/react.svg" alt="react-icon"></div>
-                                </li>
-                            </ul>
+
+
                         </div>
-
+                        <!-- 
                         <div class="btn-contato">
                             <a href="#contato">
                                 <button>
                                     Entre em contato
                                 </button>
                             </a>
-                        </div>
+                        </div> -->
                     </div><!-- txt-topo-site -->
 
                     <div class="img-topo-site">
@@ -118,44 +133,59 @@
 
         <!-- ESPECIALIDADES -->
 
-        <section class="especialidades" id="especialidades">
+        <section class="habilidades" id="habilidades">
             <div class="interface">
-                <h2 class="titulo">MINHAS <span>ESPECIALIDADES</span></h2>
-                <div class="flex">
-                    <div class="especialidades-box">
-                        <i class="bi bi-code-slash"></i>
-                        <h3>Web<span>Site</span></h3>
-                        <p> O futuro é digital, e não temos dúvida disso. As redes sociais movimentam a internet,
-                            utilizamos o smartphone o tempo todo para resolver problemas, se comunicar com outras
-                            pessoas e até mesmo fazer compras.
-                            Criar um website ajuda sua empresa a ganhar visibilidade, mostrar credibilidade, aumentar as
-                            vendas, investir em marketing digital e monitorar dados.
-                        </p>
-                    </div><!-- especialidades-box -->
+                <h2 class="titulo">MINHAS <span>HABILIDADES</span></h2>
+                <div class="flex" style="padding-top: 5%;">
 
-                    <div class="especialidades-box">
-                        <i class="bi bi-code-slash"></i>
-                        <h3>Landing<span>Pages</span></h3>
-                        <p>
-                            Mas por que eu deveria ter uma Landing Page?
-                            Estudos mostram que as empresas captam leads a uma taxa mais elevada, enviando-os para uma
-                            Landing Page dedicada, diferentemente de quando enviam o tráfego para a home page.
-                            Landing Pages são fundamentais para ajudar você a gerar leads e convertê-los em clientes
-                            potenciais e depois clientes.</p>
-                    </div><!-- especialidades-box -->
+                    <!-- <div data-="HTML"><img src="assets/icones/html.svg" alt=""></div> -->
+                    <div class="techsCards">
 
-                    <div class="especialidades-box">
-                        <i class="bi bi-code-slash"></i>
-                        <h3>Lojas <span>Virtuais</span></h3>
-                        <p>
-                            Ainda que você tenha um bom volume de vendas pelas redes sociais, é importante investir em
-                            uma loja virtual. É a partir dela que você poderá fazer uma personalização do seu
-                            atendimento, além de criar a sua identidade visual, que será a referência para o trabalho
-                            nas mídias sociais.
-                            A agilidade, comodidade, melhores preços e condições são alguns fatores que levam 82% dos
-                            consumidores brasileiros à realizar compras online.
-                        </p>
-                    </div><!-- especialidades-box -->
+                        <!-- HTML -->
+
+                        <div class="cardBox">
+                            <p>HTML</p>
+                            <img src="assets/icones/html.svg" alt="html-icon">
+                        </div>
+
+                        <!-- CSS -->
+
+                        <div class="cardBox">
+                            <p>CSS</p>
+                            <img src="assets/icones/css.svg" alt="html-icon">
+                        </div>
+
+                        <!-- JAVASCRIPT -->
+
+                        <div class="cardBox">
+                            <p>JavaScript</p>
+                            <img src="assets/icones/js.svg" alt="html-icon">
+                        </div>
+
+                        <!-- REACTJS -->
+
+                        <div class="cardBox">
+                            <p>ReactJs</p>
+                            <img src="assets/icones/react.svg" alt="html-icon">
+                        </div>
+
+                        <!-- BOOTSTRAP -->
+
+                        <div class="cardBox">
+                            <p>Bootstrap</p>
+                            <img src="assets/icones/bootstrap.svg" alt="html-icon">
+                        </div>
+
+                        <!-- SASS -->
+
+                        <div class="cardBox">
+                            <p>Sass</p>
+                            <img src="assets/icones/sass.svg" alt="html-icon">
+                        </div>
+
+
+
+                    </div><!-- techsCards -->
 
                 </div><!-- flex -->
             </div><!-- interface -->
@@ -166,20 +196,18 @@
         <section class="sobre" id="sobre">
             <div class="interface">
                 <div class="flex">
-                    <div class="img-sobre">
-                        <img src="assets/img/John-Victor2.png" alt="Imagem John victor">
-                    </div>
+
                     <div class="txt-sobre">
                         <div class="section-subtitle">
-                            <h2>
+                            <h2 style="text-align: center ; padding: 2%;">
                                 <p class="mini-icon">👨‍💻</p>
-                                <p><span>DESENVOLVEDOR </span>FRONT-END</p>
+                                <p><span>SOBRE </span>MIM</p>
                             </h2>
                         </div>
-                        <h3>
+                        <!-- <h3>
                             Sou um Desenvolvedor Front-End com experiência em:
                             <p> HTML | CSS | JavaScript | React.js</p>
-                        </h3>
+                        </h3> -->
 
                         <h4>
                             E ai, tudo bem?! Meu nome é John Victor, sou de Valença - BA, tenho 22 anos.
@@ -212,7 +240,7 @@
 
         <!-- PROJETOS -->
 
-        <section class="projetos" id="Projetos">
+        <section class="projetos" id="projetos">
             <div class="interface">
                 <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
 
@@ -307,13 +335,16 @@
                             <h1>JOHN.DEV</h1>
                         </a>
                     </div> <!-- logo-footer -->
-                    <div id="contato" class="btn-social">
+                    <div id="contatos" class="btn-social">
                         <a href="https://github.com/JohnVictor777" target="_blank"><button><i
                                     class="bi bi-github"></i></button></a>
                         <a href="https://instagram.com/johnv.dev?igshid=YTQwZjQ0NmI0OA==" target="_blank"><button><i
                                     class="bi bi-instagram"></i></button></a>
                         <a href="https://www.linkedin.com/in/john-victor-do-espirito-santo-61ba42267/"
                             target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+
+                        <a href="https://wa.me/5575987112153/" target="_blank"><button><i
+                                    class="bi bi-whatsapp"></i></button></a>
                     </div><!-- btn-social -->
                 </div><!-- flex -->
             </div><!-- line-footer -->
@@ -334,6 +365,7 @@
     <!-- JAVASCRIPT -->
 
     <script src="script.js" defer></script>
+
 </body>
 
 </html>
