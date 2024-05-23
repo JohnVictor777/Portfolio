@@ -10,6 +10,9 @@ Este projeto tem como objetivo apresentar meus trabalhos e habilidades de forma 
 - **CSS3:** Estilização do site.
 - **JavaScript:** Interatividade e dinamismo do site.
 
+![portfólio](https://github.com/JohnVictor777/Portfolio/assets/126363638/9774921f-e30e-4063-bd7e-fdd9b826e94b)
+
+
 ## Funcionalidades
 
 - **Página Principal:** Introdução e destaque para projetos recentes.
