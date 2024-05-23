@@ -56,7 +56,7 @@ Para contribuir:
 
 Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
 
-- **Email:** mailto:victorjohn609@gmail.com
+- **Email:** victorjohn609@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/john-victor-do-espirito-santo-61ba42267/
 - **GitHub:** https://github.com/JohnVictor777
 - **Instagram:** https://www.instagram.com/johnv.dev/
