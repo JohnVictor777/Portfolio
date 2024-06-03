@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-/* ESTILO GERAL */
+/* ESTILO GERAL -------------------------------------------------------------------------------------------------------- */ 
 
 
 * {
@@ -13,7 +13,7 @@
 :root {
     --color-white: #fff;
     --color-pink: #d12f7a;
-    --color-blue: #073fcc;
+    --color-blue: #4138eb;
     --color-black: #0C0C0C;
     --color-purple: #5f01ac;
     --color-cinza: #7d7d7d;
@@ -86,7 +86,7 @@ body.dark {
 }
 
 
-/* ESTILO GERAL */
+/* ESTILO GERAL ---------------------------------------------------------------------------------------------------------- */
 
 .interface {
     max-width: 1280px;
@@ -134,7 +134,7 @@ a {
     text-decoration: none;
 }
 
-/* CABEÇALHO */
+/* CABEÇALHO ------------------------------------------------------------------------------------------------------*/
 
 
 header {
@@ -193,7 +193,7 @@ header .logo h1:hover {
 }
 
 
-/* ESTILO TOPO DO SITE */
+/* ESTILO TOPO DO SITE -------------------------------------------------------------------------------------------------*/
 
 
 section.topo-do-site {
@@ -254,7 +254,7 @@ section.topo-do-site .flex {
 }
 
 
-/* TECHS */
+/* TECHS ----------------------------------------------------------------------------------------------------------*/
 
 
 .stacks-content {
@@ -336,7 +336,7 @@ section.topo-do-site .flex {
 }
 
 
-/* ESTILO ESPECIALIDADES */
+/* ESTILO ESPECIALIDADES ----------------------------------------------------------------------------------------------*/
 
 
 section.habilidades {
@@ -434,7 +434,7 @@ section.habilidades .flex {
 
 
 
-/* ESTILO SOBRE */
+/* ESTILO SOBRE -----------------------------------------------------------------------------------------------------------*/
 
 
 
@@ -535,7 +535,33 @@ section.sobre {
 }
 
 
-/* ESTILO PROJETOS */
+
+
+
+
+
+
+
+h1 {
+    color: var(--color-blue);
+}
+
+p {
+    margin: 10px 0;
+    color: var(--color-white);
+}
+
+.closing {
+    font-weight: bold;
+    color: var(--color-blue);
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+/* ESTILO PROJETOS --------------------------------------------------------------------------------------------------------*/
 
 
 section.projetos {
@@ -643,7 +669,7 @@ a.btn-viws {
 
 
 
-/* ESTILO FORMULARIO */
+/* ESTILO FORMULARIO ---------------------------------------------------------------------------------------------------*/
 
 /* 
 a.formu {
@@ -722,7 +748,7 @@ form .btn-enviar input {
 } */
 
 
-/* ESTILO FOOTER */
+/* ESTILO FOOTER ----------------------------------------------------------------------------------------------------*/
 
 
 footer {
@@ -790,7 +816,7 @@ footer .logo-footer a {
 }
 
 
-/* ESTILO DO MENU MOBILE */
+/* ESTILO DO MENU MOBILE --------------------------------------------------------------------------------------------*/
 
 
 .menu-mobile {
@@ -982,7 +1008,7 @@ footer .logo-footer a {
 
     .button-cta {
         display: flex;
-        padding-left: 25%;
+        padding-left: 40%;
         padding-top: 2em;
     }
 
@@ -1086,7 +1112,7 @@ footer .logo-footer a {
         padding-top: 10%;
     }
 
-    /* MODO DARK/LIGHT  */
+    /* MODO DARK/LIGHT  --------------------------------------------------------------------------*/
 
     .label {
         left: 14em;
