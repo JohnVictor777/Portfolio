@@ -461,6 +461,9 @@ section.sobre {
 .btn-social {
     padding-left: 25vw;
     padding: 15px;
+    justify-content: center;
+        align-items: center;
+    display: flex;
 }
 
 .button-cta {
@@ -1008,7 +1011,7 @@ footer .logo-footer a {
 
     .button-cta {
         display: flex;
-        padding-left: 40%;
+        padding-left: 25%;
         padding-top: 2em;
     }
 
